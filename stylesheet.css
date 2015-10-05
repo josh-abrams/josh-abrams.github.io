@@ -9,8 +9,8 @@
 	position: relative;
 	display: block;
 	border-top: 1em;
-	left: 25%;
-	right: 25%;
+	left: 10%;
+	right: 50%;
 }
 
 html {
@@ -34,6 +34,7 @@ figcaption {
 }
 
 body {
+	padding: 1em;
 	font-family: 'Signika Negative', sans-serif;
 	margin: 2% 7.5% 0% 7.5%;
 	height: 100%;

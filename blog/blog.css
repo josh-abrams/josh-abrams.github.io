@@ -1,6 +1,6 @@
 time a {
 	font-style: sans-serif black;
-	font-size: 1.1em;
+	font-size: 2em;
 	text-decoration: none;
 }
 
@@ -16,4 +16,12 @@ time a:visited {
 section h4 {
 	margin-left: 2em;
 	margin-bottom: 0;
+}
+
+.code {
+	margin: 1em;
+	border: solid black 1px;
+	padding: 1em;
+	font-family: monospace;
+	background-color: white;
 }
