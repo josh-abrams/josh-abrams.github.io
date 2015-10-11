@@ -66,6 +66,23 @@ footer {
 	text-align: center;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+	font-family: 'signika Negative', sans-serif;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: black;
+	font-family: 'signika Negative', sans-serif;
+}
+
+
+h2 {
+	text-decoration: underline;
+}
+
 .footlink {
 	display: inline-block;
 	vertical-align: middle;
