@@ -83,6 +83,14 @@ h2 {
 	text-decoration: underline;
 }
 
+.aboutphoto {
+	border-radius: 4px;
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+
+
 .footlink {
 	display: inline-block;
 	vertical-align: middle;
