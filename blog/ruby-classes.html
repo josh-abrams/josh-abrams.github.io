@@ -7,6 +7,9 @@
 <meta charset="UTF-8"/>
 <link rel="stylesheet" type="text/css" href="../stylesheet.css"/>
 <link rel="stylesheet" type="text/css" href="blog.css"/>
+<link rel="stylesheet" href="highlightjs/styles/androidstudio.css">
+<script src="highlightjs/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 <!-- Font Links -->
 <link href='https://fonts.googleapis.com/css?family=Signika+Negative:300' rel='stylesheet' type='text/css'/>
 <!-- End Font Links-->
@@ -33,33 +36,34 @@
 <time>10/18/2015</time>
 <h3>Classy Stuff</h3>
 
-<div class="code">
-class Superhero<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def initialize(name, gender, secret_identity, arch_nemesis, superpower)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@name = name<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@gender = gender<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@secret_identity = secret_identity<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@arch_nemesis = arch_nemesis<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@superpower = superpower<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;end<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def reveal_identity<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;puts "A little bird told me that #{@name} is really #{@secret_identity}"<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;puts "I sure hope you won't do anything unsavory with this information, #{@arch_nemesis}"<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;end<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def headline_generate<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if @gender = female<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nomenclature = "her"<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nomenclature = "his"<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;end<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;puts "#{@name} defeats #{@arch_nemesis} once again by using #{nomenclature} #{@superpower}!"<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;end<br>
-<br>
+<pre><code class="ruby">
+class Superhero
+
+	def initialize(name, gender, secret_identity, arch_nemesis, superpower)
+		@name = name
+		@gender = gender
+		@secret_identity = secret_identity
+		@arch_nemesis = arch_nemesis
+		@superpower = superpower
+	end
+
+	def reveal_identity
+		puts "A little bird told me that #{@name} is really #{@secret_identity}"
+		puts "I sure hope you won't do anything unsavory with this information, #{@arch_nemesis}"
+	end
+
+	def headline_generate
+		if @gender = female
+			nomenclature = "her"
+		else
+			nomenclature = "his"
+		end
+		puts "#{@name} defeats #{@arch_nemesis} once again by using #{nomenclature} #{@superpower}!"
+	end
+
 end
-</div>
+
+</code></pre>
 
 
 <p>Ok. So this is a class. What, you ask, is a class? Good question. Every object follows a hierararchy that places it under
@@ -72,15 +76,17 @@ An instance variable is unique to the instance of the class. A class variable, o
 The #initialize method is a method thats unique to classes which assigns instance variables to incoming instances of the class.</p>
 <p>So, say I create a new instance of the class Superhero, I would include the the initialization arguments as my arguments in
 my new instance. So say I wanted to create a new superhero called "Organs on the Outside Man" - I know, gross. I couldn't think of a better one, but I'm a techie, not a comic-book artist - I would create it with this line: </p>
-<div class="code">
+<pre><code class="ruby">
 organs_outside = Superhero.new("Organs on the Outside Man", "male", "Clive Gutman", "Pants-For-Hands Girl", "liver failure")
-</div>
+
+</code></pre>
 <p>I know that's a verbose example and a weird one at that, but I wanted to have some fun with this. Now, if I call the method 
 headline_generate on the organs_outside variable, I'll get something like this:</p>
-<div class="code">
-organs_outside.headline_generate<br>
+<pre><code class="ruby">
+organs_outside.headline_generate
 returns=> "Organs on the Outside Man defeats Pants-For-Hands Girl once again by using his liver failure."
-</div>
+
+</code></pre>
 
 <p>Alright, that's a really disjointed and weird headline and I'm not quite sure how you can defeat someone by making your own
 liver fail, but hopefully you get the idea. Or maybe you don't. E-mail me if you don't. I need some sleep.</p>
