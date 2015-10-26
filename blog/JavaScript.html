@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>FrizzBolt.github.io</title>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" type="text/css" href="../stylesheet.css"/>
+<link rel="stylesheet" type="text/css" href="blog.css"/>
+<link rel="stylesheet" href="highlightjs/styles/androidstudio.css">
+<script src="highlightjs/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- Font Links -->
+<link href='https://fonts.googleapis.com/css?family=Signika+Negative:300' rel='stylesheet' type='text/css'/>
+<!-- End Font Links-->
+</head>
+
+<body>
+	<!--Navigation Menu-->
+	<nav>
+		<a href="#">Work</a>
+		<a href="#">About</a>
+		<a href="index.html">Blog</a>
+		<a href="../contact.html">Contact</a>
+	</nav>
+	<!--End Navigation Menu-->
+	<br>
+	<br>
+	<header>
+	<svg width="90%" height="90%" class="center">
+  	<image xlink:href="../imgs/name_banner.svg" width="90%" height="90%"/>
+	</svg>
+	</header>
+
+<article>
+<time>10/25/2015</time>
+<h3>Isn't Everything an Object?</h3>
+<p>Take a look at these two snippets of code</p>
+<p>Here's Javascript</p>
+<pre><code class="javascript">
+var dictionario = {
+	"aardvarkio": "a large African animal that has a long nose and has an 'io' at the end",
+	"bananio": "a long curved fruit with a thick peel that is yellow and has an 'io' at the end.",
+	"cougario": "an attractive woman in her 30's or 40's who is on the hunt once again and has an 'io' at the end"
+}
+
+</code></pre>
+<p>Now here's Ruby:</p>
+<pre><code class="ruby">
+dictionario = {
+	aardvarkio: "a large African animal that has a long nose and has an 'io' at the end.",
+	bananio: "a long curved fruit with a thick peel that is yellow and has an 'io' at the end.",
+	cougario: "an attractive woman in her 30's or 40's who is on the hunt once again and has an 'io' at the end."
+}
+
+</code></pre>
+
+<p>Seeing double? These bits of code are almost written in almost the exact same but in practice they perform
+slightly differently in their respective languages.</p>
+<p>The above Javascript snippet is an example of a literal notation object. This acts as a repository for information which can be accessed and added to without using predefined methods. The two forms of notation for accessing values JS objects look like this:</p>
+
+<pre><code class="javascript">
+dictionario[aardvarkio]
+// and
+dictionary.aardvarkio
+
+</code></pre>
+
+<p>You can even alter the selected values by setting either of them equal to a new value. Now let's take a look at accessing hash values in Ruby. The Ruby example near the top of this post is an example of a hash, another data storage method in Ruby. Unlike Javascript literal notation objects like the ones listed above, these cannot be
+accessed and added with a dot notation - so dictionary.aardvarkio is out of the question:</p>
+
+<pre><code class="ruby">
+dictionario[:aardvarkio]
+
+</code></pre>
+<p>
+This is still kind of similar, but not as flexible as the syntax with the Javascript object. This is because JavaScript objects can be used in a way similar to Ruby classes. There is another type of notation for objects called a constructor notation which I will cover in a future blog post. For now, sit and ponder the amazing translation of syntaxes from one to another and remember that between Ruby and Javascript, there are many subtle differences that will become apparent over time.
+</p>
+
+<hr>
+
+<!-- Social Media Links-->
+
+<footer>
+	<a href="https://github.com/FrizzBolt/"><img class="footlink" src="../imgs/github-icon.png" alt="github icon"></a>
+	<a href="https://twitter.com/FrizzBolt/"><img class="footlink" src="../imgs/twitter-icon.png" alt="twitter icon"></a>
+	<a href="https://www.facebook.com/zfd6kldj1vizxjv"><img class="footlink" src="../imgs/fb-icon.png" alt="facebook icon"></a>
+	<a href="https://www.linkedin.com/pub/joshua-abrams/65/ab6/56"><img class="footlink" src="../imgs/linkedin-icon.png" alt="linkedin icon"></a>
+</footer>
+<!-- End Social Media Links-->
+
+</body>
+</html>
