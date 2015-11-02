@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8"/>
+<title>The WAT Cheatsheet</title>
+
+<link rel="stylesheet" href="stylesheet.css">
+
+<!--Font Initialization-->
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<!--End Font Initialization-->
+
+<!-- Highlight JS Initialization-->
+<link rel="stylesheet" href="highlightjs/styles/obsidian.css">
+<script src="highlightjs/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- End Highlight JS Initialization-->
+
+</head>
+
+<img src="../imgs/wat-banner.png">
+<header>
+<br>
+<a href="#intro" alt="Introduction">Introduction</a> |
+<a href="#identity" alt="Mistaken Identity">Mistaken Identity</a> |
+<a href="#functions" alt="Function Disfunction">Function Disfunction</a> |
+<a href="#references" alt="References">References</a>
+</header>
+
+
+<a name="intro"/>
+<h1>Introduction</h1>
+
+<p>In my first few weeks in development, I've observed a sort of taboo among the development community in regards to criticizing JavaScript as it is a standard and anyone who wants to work in development should just buckle down and learn deal with it. There's somewhat of a pitfall here though since learning to deal with the odd limitations of JavaScript is arguably the most important part of becoming a JavaScript developer. Nobody wants to sit around and debug for hours on end only to find out that their algorithm would run have run beautifully had some odd, barely documented strangeness in the syntax not broken it. Of course, a lot of these oddities exist for a reason and no good JavaScript programmer would ignore looking up the reasoning for this apparent strangeness. I do believe, however, that the best way to avoid the pitfall of frustration in the beginning of one's career in JavaScript developement is to open up the discussion of and have a laugh at some of the inherant weirdness that the language holds.</p>
+
+<p>It is for this reason, that I decided to write the WAT cheat sheet, lovingly named after the famous humorous lightning talk given developer Gary Bernhardt in 2012. A lot of these examples were dug up from blogs and talks and unearthed during my quest to understand the language. With this sheet, I hope to cover some of the odd bits of JavaScript so we can further our understanding of the language and save time coding in the future.</p>
+
+<a name="identity"/>
+<h1>Mistaken Identities</h1>
+
+<p>A large amount of JavaScript weirdness seems to be attributed to the identities of object types. See below this example from the aformentioned namesake of this cheatsheet.</p>
+
+<pre><code class="javascript">
+[] + [] //Empty String
+
+[] + {} //Object
+
+{} + [] //0
+//Hold on...wat?
+{} + {} //NaN
+//Phew. At least one of them makes sense
+
+</code></pre>
+
+<p>There are pages and pages worth of object types in JS not appearing as they seem. Here are a few more:</p>
+
+<pre><code class="javascript">
+console.log(typeof NaN) // number
+//'not a number' is a number.
+
+console.log(typeof null) // object
+//and null's an object.
+
+console.log(null instanceof Object); // false
+//or not.
+
+</code></pre>
+
+
+<p>Here's another example different object types producing unintuitive results. Once again, always expect the unexpected:</p>
+
+<pre><code class="javascript">
+var a = '2' + 1;
+console.log(a);        // 21
+// Looks good! JavaScript converted the whole thing into an integer.
+console.log(typeof a); // string
+//... ok.
+
+</code></pre>
+
+
+
+<p><b>Note: This is probably the most important piece of information in this cheat sheet.</b><br>
+There are also some workarounds that are necessary for comparing arrays and objects. I would highly recommend getting to know this next tidbit:</p>
+
+<pre><code class="javascript">
+[1, 2] === [1, 2] // false
+[1, 2] == [1, 2]  // false
+//Reeeeallly good to know that we can't do that.
+
+//Do this instead and save yourself infinite headaches
+[1, 2] >= [1, 2]  // true
+[1, 2] <= [1, 2]  // true
+//Just roll with it.
+
+</code></pre>
+
+
+<p>This next one seems useful to know as well:</p>
+
+<pre><code class="javascript">
+var obj = {};
+obj == {} // false
+
+var arr = [];
+arr == [] // false
+
+</code></pre>
+
+<a name="functions"/>
+<h1>Function Dysfunction</h1>
+
+<p>Built in functions in JavaScript don't always behave as expected either. Much of this has to do with the underlying structure of JavaScript which also defines some of issues in the previous section. Let's take a look at a few examples.</p>
+
+<p>This one looks like they're just trying to mess up JS. I'm surprised it ran in the first place:</p>
+
+<pre><code class="javascript">
+console.log((!+[]+[]+![]).length);
+// 9
+// Length of what? There's nothing in there!
+
+console.log((!+[]+[]+![]));  // "truefalse"
+// Just throw an error already!!
+
+</code></pre>
+
+<p>There are also a few kinks in the math within JavaScript. Not just the Math object, but the way JS handles numbers in general.</p>
+
+<pre><code class="javascript">
+Math.max();   // -Infinity
+Math.min();   // Infinity
+// To be fair, infinity is a pretty weird concept to begin with.
+
+Math.min() < Math.max();  // false
+// Now we know why... sort of.
+
+</code></pre>
+
+<p>Structurally, the way JS performs math with floats can also turn up unexpected results.</p>
+
+<pre><code class="javascript">
+var broken_float = 0.1 + 0.2
+console.log(broken_float)
+// 0.30000000000000004
+
+</code></pre>
+
+<p>The reason for floating point issues lies in the way that numbers are stored within JavaScript. There are several guides to working around this as it is a commonly reported issue. The most common workaround for this is to work exclusively with integers and multiply everything you're doing by 10 times the numbers of decimal precision you want.</p>
+
+<pre><code class="javascript">
+var x = 3
+'5' + x - x  // 50
+'5' - x + x  // 5
+// Excuse me while I go panic for not understanding why this would happen
+
+</code></pre>
+
+<p>One blogger even found this little gem when working with a giant number:</p>
+
+<pre><code class="javascript">
+console.log(9999999999999999) // 10000000000000000
+//Here, have a new number.
+
+</code></pre>
+
+<p>Of course there are many more examples of interesting behavior in JavaScript, but it seems frivolous at this point to keep pointing out problems and offering little solution. So go out and research! This is a solvable issue and I hope a little bit of humor surrounding it got you moving on it.</p>
+
+<a name="references"/>
+<h1>References</h1>
+
+<footer>
+<a href="http://wtfjs.com/" alt="WTFJS Link">WTFJS- A compendium of WTF within JavaScript</a><br>
+<a href="http://www.mennovanslooten.nl/blog/post/40" alt="Mendel Blog Link">mennovanslooten.nl/blog - A lovely dev blog</a><br>
+<a href="https://www.destroyallsoftware.com/talks/wat" alt="Wat link">WAT - The silly talk that inspired this cheat sheet</a><br>
+<a href="http://www.smashingmagazine.com/2011/05/10-oddities-and-secrets-about-javascript/" alt="smashmag link">Ten Oddities And Secrets About JavaScript - An insightful blog post regarding JS weirdness</a><br>
+<a href="https://www.udemy.com/understand-javascript/" alt="Understand Javascript Link">Javascript: Understanding the Weird Parts - An excellent course on the subject</a><br>
+<a href="http://blog.jenniferdewalt.com/post/67765341703/javascript-i-love-you-and-all-your-weirdness" alt="Javascript Weirdness Link">Jennifer Dewalt - Another great dev blog post</a><br>
+</footer>
+
+</hljs.initHighlightingOnLoad();<>
+</html>
