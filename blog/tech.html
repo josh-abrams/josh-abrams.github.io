@@ -72,7 +72,24 @@ for( var x = 0; x < array.length; X++ ) {
  }
 </code></pre>
 
-<p>O(log N) or Order of Log N algorithms perform in a manner so that the amount of information being used is decreased by half through every iteration of the algorithm. A binary search is a perfect example of this. In a binary search, the middle element of the dataset is selected. Say we have an array - [1, 2, 3, 4, 5, 6, 7] and we want to find the number 3. The middle element is selected in the array, which in this case is 4. Since we know that 3 is less than 4, all of the data that's greater than 4 can be discarded. Now we only have to iterate through half of the data! So now we are left with a smaller set of numbers - 1, 2, 3. The algorithm runs again and it defines the middle element again. This time it's 2. So now we know that 2 is less than 3 so 2 and 1 are removed from the array and we are left with our number! Writing a non-destructive binary search in JavaScript is beyond my skill level at the moment. You'll be able to google a few beautiful examples of it, however.</p>
+<p>O(log N) or Order of Log N algorithms perform in a manner so that the amount of information being used is decreased by half through every iteration of the algorithm. A binary search is a perfect example of this. In a binary search, the middle element of the dataset is selected. Say we have an array - [1, 2, 3, 4, 5, 6, 7] and we want to find the number 3. The middle element is selected in the array, which in this case is 4. Since we know that 3 is less than 4, all of the data that's greater than 4 can be discarded. Now we only have to iterate through half of the data! So now we are left with a smaller set of numbers - 1, 2, 3. The algorithm runs again and it defines the middle element again. This time it's 2. So now we know that 2 is less than 3 so 2 and 1 are removed from the array and we are left with our number! Let's look at a Ruby binary search:</p>
+
+<code class="function"> <pre>
+def binary_search(term, array)
+  midpoint = (array.length - 1) / 2
+  if array.length == 0
+    return nil
+  elsif array.length == 1
+    return array.index(term)
+  else
+    if term > array[midpoint]
+      (midpoint + 1) + binary_search(term, array[midpoint+1..-1])
+    else
+      binary_search(term, array[0..midpoint])
+    end
+  end
+end
+</code></pre>
 
 <p>Those are the four basic forms of Big O notation. There are several more common forms that get more in depth as you further dive into the realm of discrete mathematics. This is just a broad overview at the moment. Stay tuned for a more detailed dive into this useful mathemaatical notation.</p>
 
