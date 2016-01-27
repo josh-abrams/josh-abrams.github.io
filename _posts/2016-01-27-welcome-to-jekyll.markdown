@@ -63,10 +63,3 @@ end
 {% endhighlight %}
 
 There are several more common forms that get more in depth as you further dive into the realm of discrete mathematics. This is just a broad overview at the moment. Stay tuned for a more detailed dive into this useful notation.
-
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
