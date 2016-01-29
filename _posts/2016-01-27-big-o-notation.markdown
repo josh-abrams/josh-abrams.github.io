@@ -2,7 +2,7 @@
 layout: post
 title:  "Big O(N^YEAH)"
 date:   2016-01-27 13:27:32 -0600
-categories:
+categories: big-o notation
 ---
 
 In the realm of computer science, Big O notation is a big deal when it comes to designing efficient algorithms. At it's most basic level, Big O is a method for labelling and classifying the amount of iterations an algorithm will need to perform on a dataset in relation to the size of the dataset. Let's take a look at some basic examples of algorithms and give a broad explanation of their respective notations.
