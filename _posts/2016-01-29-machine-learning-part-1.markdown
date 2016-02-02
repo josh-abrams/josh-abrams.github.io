@@ -5,7 +5,7 @@ date:   2016-01-29 19:30:00 -0600
 categories: machine learning ai statistics
 ---
 
-If you're like me, when you think of machine learning you think of computers solving problems using complex algorithms to solve problems using datasets. And that's awesome, because that's basically what it is. If you're like me in that you also aren't entirely familiar with high level complex math and data science concepts, then you might feel like machine learning is an area of study that's locked out of your range of understanding. That's an intimidating mountain to climb for a field of study that you don't even know if you'll enjoy.
+If you're like me, when you think of machine learning you think of computers solving problems using complex algorithms and large datasets. That's essentially true. If you're like me in that you also aren't entirely familiar with high level complex math and data science concepts, then you might feel like machine learning is an area of study that's locked out of your range of understanding. That's an intimidating mountain to climb for a field of study that you don't even know if you'll enjoy.
 
 Luckily for you and I, that's not the case. If you have a decent grasp on Python and can take what some people call a "top-down" approach to machine learning. How, you may ask? Well, admittedly, throwing together a neural network from scratch is going to be hard for near-beginners with a limited mathematical skill-set. BUT, there is an easier way, and I know that's cringeworthy to say, but there is. The solution itself, at first glance, may sound cringeworthy as well, but hear me out.
 
