@@ -2,7 +2,7 @@
 layout: post
 title:  "Big O(N^YEAH)"
 date:   2016-01-27 13:27:32 -0600
-categories: big-o notation
+categories: big-o-notation
 ---
 
 In the realm of computer science, Big O notation is a big deal when it comes to designing efficient algorithms. At it's most basic level, Big O is a method for labelling and classifying the amount of iterations an algorithm will need to perform on a dataset in relation to the size of the dataset. Let's take a look at some basic examples of algorithms and give a broad explanation of their respective notations.
@@ -15,7 +15,7 @@ carTypes.push("Minivan");
 {% endhighlight %}
 
 
-O(N) or Order of N is an algorithm that's execution time is directly proportional to the size of the dataset that it is acting on. This typically refers to an action that needs to iterate through an entire dataset. A common example cited as an Order of N algorithm would be a linear search. This is a type of search function that checks every element of the dataset for matching data and returns a matching index or key. Here's an example of an Order of N linear seach algorithm in JavaScript.
+O(N) or Order of N is an algorithm that's execution time is directly proportional to the size of the dataset that it is acting on. This typically refers to an action that needs to iterate through an entire dataset. A common example cited as an Order of N algorithm would be a linear search. This is a type of search function that checks every element of the dataset for matching data and returns a matching index or key. Here's an example of an Order of N linear search algorithm in JavaScript.
 
 {% highlight ruby%}
 var searchTerm = "Search Term"
