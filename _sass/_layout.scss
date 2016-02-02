@@ -2,12 +2,16 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-top: 4px solid $grey-color-dark;
+    border-bottom: 4px solid $grey-color-dark;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+}
+
+.site-title-tilde {
+    color: #C40233;
 }
 
 .site-title {
@@ -33,6 +37,8 @@
     }
 
     .page-link {
+        font-family: 'Kreon', serif;
+        font-weight: 700;
         color: $text-color;
         line-height: $base-line-height;
 
