@@ -9,9 +9,9 @@
 title: Josh Abrams
 email: joshua.a.abrams@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hello and welcome to my newly re-designed devlopment blog. Please
+  note that I have decided to scrap my original design and most of the
+  associated articles. The front-end is also still under development.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://frizzbolt.github.io" # the base hostname & protocol for your site
 twitter_username: frizzbolt
