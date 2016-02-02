@@ -2,7 +2,7 @@
 
 This is the repo for my development blog. Incidentally, it is still under development.
 
-To view the site in it's current state, visit: [Frizzbolt.github.io](http://frizzbolt.github.io)
+To view the site in its current state, visit: [Frizzbolt.github.io](http://frizzbolt.github.io)
 
 ##Development to-do:
 * Rework and personalize the Jekyll template
