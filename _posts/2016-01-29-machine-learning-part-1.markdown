@@ -17,10 +17,14 @@ In tackling this approach, you will run into many points where you will need to 
 
 Now, if you want to prepare data for use in a machine learning algorithm, that's a slightly more precise art. A huge part of machine learning is formatting data so that it can be fed through the algorithm and translated back. I will not cover this in this series as there are plenty of data sets to use at the start of this adventure.
 
-##Recommended Reading
+# Recommended Reading
+
 * [Machine Learning Mastery](http://machinelearningmastery.com/start-here/) (This is an excellent site for learning the top-down approach and was one of the inspirations for this guide.)
+
 * [Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) (If you already know some high level math, this is probably a good place to start. This is an excellent free book.)
 
-##Courses
+# Courses
+
 * [Coursera - Stanford Machine Learning Course](https://www.coursera.org/learn/machine-learning) (If you want to go all out and study the math and the theory, then this will likely be your ticket.)
+
 * [Udemy - Machine Learning Course](https://www.udemy.com/introduction-to-machine-learning-in-python/) (This course is mostly theory and code examples with little math.)
