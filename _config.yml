@@ -11,7 +11,7 @@ email: joshua.a.abrams@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Hello and welcome to my newly re-designed devlopment blog. Please
   note that I have decided to scrap my original design and most of the
-  associated articles. The front-end is also still under development.
+  associated articles.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://frizzbolt.github.io" # the base hostname & protocol for your site
 twitter_username: frizzbolt
