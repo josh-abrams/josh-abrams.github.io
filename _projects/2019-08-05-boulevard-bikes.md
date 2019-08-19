@@ -3,7 +3,7 @@ title: 'Boulevard Bikes'
 subtitle: 'An e-commerce site design'
 date: 2010-08-05 00:00:00
 description: This is a re-design of an e-commerce application for a local business.
-featured_image: '/images/boulevard-bikes/storefront.jpg'
+featured_image: '/images/boulevard-bikes/banner.jpg'
 ---
 
 ![](/images/boulevard-bikes/top-image.jpeg)
@@ -40,7 +40,7 @@ From this information, I was able to formulate my problem and solution statement
 As a city biker who is in the market for a new bike but unsure where to shop, I need a way to shop between an online and in-store experience because I will benefit from detailed specifications, access to staff, and a wide selection of bikes.
 
 ##### My solution statement:
-Create an e-commerce website that allows its users to search for, compare, and buy bikes as well as schedule times to come in and test bikes. It would also allow users to chat with staff to receive expert advice on their purchases.
+Create an e-commerce website that allows its users to search for, compare, and buy bikes as well as schedule times to come in and test bikes. It would also allow users to chat with staff directly to receive expert advice on their purchases.
 
 ## Synthesis
 
@@ -66,7 +66,7 @@ Next came an update to the site map. I included a bike comparison page which con
 
 From here, I created a user flow. The user flow was fairly simple. It introduced the ability to chat with the bike store staff via a small popup window in the corner of the screen as well as a way to view the biography of the last person to service your bike conveniently placed in the product detail page.
 
-<div class="gallery" data-columns="1" style="max-width:600px;">
+<div class="gallery" data-columns="1" style="max-width:900px;">
 	<img src="/images/boulevard-bikes/user_flow/user_flow.png">
 </div>
 
