@@ -1,21 +1,51 @@
 ---
 layout: default
+title: Professional UX Designer
+description: fafafaf Personal is the perfect theme for developers, designers and other creatives.
+featured_image: /images/home.jpg
 ---
 
-<div class="home">
-  <h1 class="page-heading">Posts</h1>
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<section class="hero">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"> &#187 {{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+	<div class="hero__image" style="background-image: url({{ page.featured_image }})">
+		<div class="hero__overlay"></div>
+	</div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	<div class="wrap">
 
-</div>
+		<h1>Professional UX Design</h1>
+		<p>Something something.</p>
+
+		{% include socials.html %}
+
+	</div>
+
+</section>
+
+<section class="listing">
+
+	<div class="wrap">
+
+		{% for project in site.projects reversed %}
+
+		<article class="post">
+
+			<div class="post__image-wrap">
+				<div class="post__image" style="background-image: url({{ project.featured_image }})"></div>
+			</div>
+
+			<div class="post__content-wrap">
+				<div class="post__content">
+					<h2 class="post__title"><a href="{{ project.url }}">{{ project.title }}</a></h2>
+					<p class="post__subtitle">{{ project.subtitle }}</p>
+					<p class="post__description">{{ project.description }}</p>
+				</div>
+			</div>
+
+		</article>
+
+		{% endfor %}
+
+	</div>
+
+</section>

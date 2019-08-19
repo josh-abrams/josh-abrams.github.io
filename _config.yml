@@ -1,23 +1,54 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+site: Personal Jekyll Theme
 
-# Site settings
-title_bar: Josh Abrams - Development Blog
-title: Josh Abrams
-email: joshua.a.abrams@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Hello and welcome to my newly re-designed devlopment blog. Please
-  note that I have decided to scrap my original design and most of the
-  associated articles.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://frizzbolt.github.io" # the base hostname & protocol for your site
-twitter_username: frizzbolt
-github_username: frizzbolt
-under_construction: false
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /blog/:slug
+  projects:
+    output: true
+    permalink: /project/:slug
 
-# Build settings
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
 markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 6
+paginate_path: "/blog/page:num/"
+  
