@@ -1,7 +1,7 @@
 ---
 title: Thank you
 subtitle: Your message was sent successfully.
-description: A fdasasfd, modern Jekyll theme for personal websites.
+description: A modern Jekyll theme for personal websites.
 featured_image: /images/demo/contact.jpg
 ---
 

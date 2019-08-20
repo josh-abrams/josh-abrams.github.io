@@ -6,7 +6,12 @@ description: This is a re-design of an e-commerce application for a local busine
 featured_image: '/images/boulevard-bikes/banner.jpg'
 ---
 
-![](/images/boulevard-bikes/top-image.jpeg)
+<div class="gallery" data-columns="1" style="max-width: 900px;">
+	<img src="/images/boulevard-bikes/high_fidelity/laptop_screen_1.png">
+	<img src="/images/boulevard-bikes/high_fidelity/laptop_screen_2.png">
+	<img src="/images/boulevard-bikes/high_fidelity/laptop_screen_3.png">
+	<img src="/images/boulevard-bikes/high_fidelity/laptop_screen_4.png">	
+</div>
 
 # Boulevard Bikes
 
@@ -82,7 +87,9 @@ It was time to create my initial user sketches. I decided to model my basic site
 The online checkout would be modeled after Amazon, the current forerunners in the UX shopping experience worldwide. The placement of features and the labeling of forms were both modeled off of the existing Amazon storefront.
 
 ## Usability Testing
+
 ---
+
 After adapting these sketches into a simple paper prototype, I was ready to begin usability testing. I found three willing participants who gave me feedback on the basic outline as well as the usability of the site’s unique features. From these critiques, I was able to move forward into a digital wireframe.
 
 I admittedly moved a bit too quickly into the design phase of things, increasing the fidelity of my prototype before taking it in for usability testing. Luckily, the design I settled on was simple enough that I was able to make changes quite easily with my second set of testing. 
@@ -90,13 +97,6 @@ I admittedly moved a bit too quickly into the design phase of things, increasing
 I ended up getting much more detailed insights from my second round of user testing. I ended up changing the adjusting quite a bit of text to make things more readable. I added a carousel select screen to the comparison page and a search bar to make navigation quicker and easier. The chat button needed to be a good deal brighter. The product detail page was vague in my first draft and needed a good deal of expansion and adjustment. I replaced a lot of hyperlinks with buttons to improve visibility and made my checkout page look a little closer to Amazon’s which I felt was the most refined and convenient example of checkout UX I could find. These changes, among other things smoothed out my user flow substantially.
 
 In my final round of user testing, the changes I made to the UI were considerably less dramatic. I added Paypal and GPay buttons to the checkout for convenience's sake. I adjusted the payment system to limit the amount of names a person could include on their checkout for clarity. I adjusted the text on several buttons to make their functions more obvious at first glance. A huge change was simply adding contact and location information on the front page in a spot where they could easily be found.
-
-<div class="gallery" data-columns="4">
-	<img src="/images/boulevard-bikes/high_fidelity/Homepage.png">
-	<img src="/images/boulevard-bikes/high_fidelity/Comparison.png">
-	<img src="/images/boulevard-bikes/high_fidelity/Product_Detail.png">
-	<img src="/images/boulevard-bikes/high_fidelity/Checkout.png">	
-</div>
 
 ## What's Next?
 ---
