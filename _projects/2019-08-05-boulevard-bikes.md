@@ -6,14 +6,14 @@ description: This is a re-design of an e-commerce application for a local busine
 featured_image: '/images/boulevard-bikes/banner.jpg'
 ---
 
+<link rel="stylesheet" type="text/css" href="../css/project_dividers.css">
+
 <div class="gallery" data-columns="1" style="max-width: 900px;">
 	<img src="/images/boulevard-bikes/high_fidelity/laptop_screen_1.png">
 	<img src="/images/boulevard-bikes/high_fidelity/laptop_screen_2.png">
 	<img src="/images/boulevard-bikes/high_fidelity/laptop_screen_3.png">
 	<img src="/images/boulevard-bikes/high_fidelity/laptop_screen_4.png">	
 </div>
-
-# Boulevard Bikes
 
 ---
 
@@ -32,7 +32,7 @@ I then reached out and e-mailed the owner of Boulevard Bikes to see if he had an
 I had a few key takeaways from my user interviews:
 * Users want to compare, customize and test bikes.
 * Users want to buy used bikes.
-* Users want a way to access the store’s policies. (Returns important)
+* Users want a way to access the store’s policies.
 * Users want to see the store’s services.
 * Users want competitive prices.
 * Users want control over the aesthetics of their bike.
@@ -99,9 +99,13 @@ I ended up getting much more detailed insights from my second round of user test
 In my final round of user testing, the changes I made to the UI were considerably less dramatic. I added Paypal and GPay buttons to the checkout for convenience's sake. I adjusted the payment system to limit the amount of names a person could include on their checkout for clarity. I adjusted the text on several buttons to make their functions more obvious at first glance. A huge change was simply adding contact and location information on the front page in a spot where they could easily be found.
 
 ## What's Next?
+
 ---
+
 So what are my next implementations for this project? The compare feature needs to be more fleshed out. I would like the user to be able to easily find and compare as many bikes as they want and the comparison page needs to be updated accordingly. The bike testing scheduler also needs to be implemented. I would like to add a way for users to schedule appointments to test bikes. A sizing and geometry guide will be helpful to let users fit their bikes before buying. Finally, I would like to make the chat window easier to find. One common pain point on my site that I wasn’t able to address was the findability of the chat window. This was hard to address in invision with the level of fidelity that I was working with.
 
 ## Conclusion
+
 ---
+
 I’m glad I was able to work with such a complex and personally intriguing subject and I feel like I walked away from this project with a good deal more knowledge in the tools and processes required to be successful in the field. I learned a lot over the course of this project and had a lot of fun in the process.
