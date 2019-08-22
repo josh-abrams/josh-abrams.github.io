@@ -21,7 +21,7 @@ footer_settings:
   footer_tagline: UX designer and front-end developer.
 
 hero_settings:
-  overlay_opacity: 0.8
+  overlay_opacity: 0.75
 
 post_settings:
   grid_spacing: 10
@@ -86,8 +86,8 @@ font_settings:
     letter_spacing: -0.02
   menu:
     small_size: 30
-    medium_size: 15
-    large_size: 17
+    medium_size: 25
+    large_size: 22
     weight: 600
     letter_spacing: 0
   h1:
