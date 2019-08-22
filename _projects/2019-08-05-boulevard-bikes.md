@@ -57,6 +57,8 @@ The e-commerce platform for Boulevard Bikes needed to be built from the ground u
 
 ## User Personas
 
+These are personas generate as a culmination of all of my research and synthesis. The primary user persona, Sarah, represented an everyday biking enthusiast while the secondary persona, Tom, embodied a career bike messenger.
+
 <div class="gallery" data-columns="2">
 	<img src="/images/boulevard-bikes/personas/persona-sarah.png">
 	<img src="/images/boulevard-bikes/personas/persona-tom.png">
@@ -64,7 +66,9 @@ The e-commerce platform for Boulevard Bikes needed to be built from the ground u
 
 ---
 
-## Sketches
+## Paper Prototype
+
+This is part of the paper prototype I used in the first iteration of this project. Test users were asked to navigate the site with a pencil as a cursor and the screens were navigated by hand.
 
 <div class="gallery" data-columns="2" style="max-width:600px;">
 	<img src="/images/boulevard-bikes/sketches/sketch_1.JPG">
@@ -77,11 +81,15 @@ The e-commerce platform for Boulevard Bikes needed to be built from the ground u
 
 ## Branding
 
+These are screenshots of branding documents that would be passed on to engineering or directly to the client as a means of keeping design and engineering on the same page.
+
 ![](/images/boulevard-bikes/branding/color_palette.png)
 
 ---
 
 ## High-Fidelity Prototype
+
+This video showcases a completed, high-fidelity iteration of a digital prototype.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZG6rQP0lRm0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -101,3 +109,5 @@ The e-commerce platform for Boulevard Bikes needed to be built from the ground u
 * Create a feature to schedule bike testing.
 * Implement a sizing and geometry guide into the bike details page.
 * Make the chat window easier to find.
+
+<button onclick="window.location.href = '/retrospectives/boulevard_bikes_retrospective.pdf';" class="button button--large">View Full Retrospective</button>
