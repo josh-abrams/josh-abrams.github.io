@@ -73,9 +73,9 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">'
-  title_font: '"Karla", sans-serif'
-  body_font: '"Karla", sans-serif'
+  font_embed: '<link href="https://fonts.googleapis.com/css?family=Mukta&display=swap" rel="stylesheet">'
+  title_font: '"Mukta", sans-serif'
+  body_font: '"Mukta", sans-serif'
   regular_weight: 400
   bold_weight: 600
   site_title:
