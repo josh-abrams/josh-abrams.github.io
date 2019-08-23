@@ -57,7 +57,7 @@ The e-commerce platform for Boulevard Bikes needed to be built from the ground u
 
 ## User Personas
 
-These are personas generate as a culmination of all of my research and synthesis. The primary user persona, Sarah, represented an everyday biking enthusiast while the secondary persona, Tom, embodied a career bike messenger.
+These are personas generated as a culmination of all of my research and synthesis. The primary user persona, Sarah, represented an everyday biking enthusiast while the secondary persona, Tom, embodied a career bike messenger.
 
 <div class="gallery" data-columns="2">
 	<img src="/images/boulevard-bikes/personas/persona-sarah.png">
@@ -110,4 +110,5 @@ This video showcases a completed, high-fidelity iteration of a digital prototype
 * Implement a sizing and geometry guide into the bike details page.
 * Make the chat window easier to find.
 
-<button onclick="window.location.href = '/retrospectives/boulevard_bikes_retrospective.pdf';" class="button button--large">View Full Retrospective</button>
+<br><br>
+<button onclick="window.location.href = '/retrospectives/boulevard_bikes_retrospective.pdf';" class="button button--large--centered">View Full Retrospective</button>
