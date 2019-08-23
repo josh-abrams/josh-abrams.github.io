@@ -13,6 +13,11 @@ featured_image: '/images/boulevard-bikes/banner.jpg'
 	<img src="/images/boulevard-bikes/high_fidelity/laptop_screen_4.png">	
 </div>
 
+<button onclick="window.location.href = 'https://invis.io/ADTLQQ73Q8W';" class="button button--large--centered">View Clickable Prototype</button>
+<br>
+<center><p style="font-size: 15pt;">(Please note: This prototype is formatted for an HD desktop experience)</p></center>
+<br>
+
 # Boulevard Bikes
 
 ---
