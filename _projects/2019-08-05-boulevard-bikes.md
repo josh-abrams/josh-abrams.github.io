@@ -24,7 +24,7 @@ featured_image: '/images/boulevard-bikes/banner.jpg'
 
 ## The Challenge
 
-Create an e-commerce platform for a local Chicago business. I chose Boulevard Bikes which is a local bike shop with a minimally functioning e-commerce platform.
+Create an e-commerce platform for a local Chicago business over the course of two weeks. I chose Boulevard Bikes which is a local bike shop with a minimally functioning e-commerce platform.
 
 ---
 ## Design Practices Utilized
@@ -57,6 +57,9 @@ This project was a solo endeavor. I was singly responsible for all research, syn
 ## User Research
 
 I first ran a competitive analysis. This analysis compared the existence of 40 different features on seven different bike store websites spanning all of Chicago. There were a few key takeaways from this, the biggest and broadest being that there are a lot of retailers that have online storefronts. Even local retailers. Secondly, while there is plenty of variety in the features of online bike storefronts, there is a basic, refined formula that goes into a lot of the sites. Following pieces of this formula helped me establish the basic outline of my page.
+
+<button onclick="window.location.href = 'https://docs.google.com/spreadsheets/d/1OGtpn_DrLi8hDpXRdkHasxzlj41bai2sozcOSGDWw9E/edit?usp=sharing';" class="button button--large--centered">View Competetive Analysis</button>
+<br><br>
 
 I then reached out and e-mailed the owner of Boulevard Bikes to see if he had any interest in taking part of my research in exchange for free design. He boldly stated that he had no interest in developing an online store front and believed in the importance of brick and mortar business. I then managed to get two guerilla user interviews outside the storefront before getting kicked out. After that, I found two people I knew who both had shopped at Boulevard Bikes in the past as well as two people who had bought bikes online. I managed to get extensive interviews with all of them.
 
@@ -140,19 +143,19 @@ In my final round of user testing, the changes I made to the UI were considerabl
 
 ---
 
-## Branding
-
-These are screenshots of branding documents that would be passed on to engineering or directly to the client as a means of keeping design and engineering on the same page.
-
-![](/images/boulevard-bikes/branding/color_palette.png)
-
----
-
 ## High-Fidelity Prototype
 
 This video showcases a completed, high-fidelity iteration of a digital prototype.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZG6rQP0lRm0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+## Branding
+
+These are screenshots of branding documents that would be passed on to engineering or directly to the client as a means of keeping design and engineering on the same page.
+
+![](/images/boulevard-bikes/branding/color_palette.png)
 
 ---
 
@@ -166,10 +169,10 @@ This video showcases a completed, high-fidelity iteration of a digital prototype
 ## Next Steps
 
 * Flesh out compare feature further.
-* Create a bike testing scheduler
 * Create a feature to schedule bike testing.
 * Implement a sizing and geometry guide into the bike details page.
 * Make the chat window easier to find.
 
 <br><br>
+
 <button onclick="window.location.href = '/retrospectives/boulevard_bikes_retrospective.pdf';" class="button button--large--centered">View Full Retrospective</button>
