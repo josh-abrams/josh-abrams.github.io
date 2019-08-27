@@ -1,7 +1,7 @@
 ---
 title: 'Boulevard Bikes'
 subtitle: 'An e-commerce site design'
-date: 2010-08-05 00:00:00
+date: 2019-08-05 00:00:00
 description: This is a re-design of an e-commerce application for a local business.
 featured_image: '/images/boulevard-bikes/banner.jpg'
 ---
@@ -13,7 +13,7 @@ featured_image: '/images/boulevard-bikes/banner.jpg'
 	<img src="/images/boulevard-bikes/high_fidelity/laptop_screen_4.png">	
 </div>
 
-<button onclick="window.location.href = 'https://invis.io/ADTLQQ73Q8W';" class="button button--large--centered">View Clickable Prototype</button>
+<button onclick="window.open('https://invis.io/ADTLQQ73Q8W', '_blank');" class="button button--large--centered">View Clickable Prototype</button>
 <br>
 <center><p>(Please note: This prototype is formatted for an HD desktop experience)</p></center>
 <br>
@@ -58,7 +58,7 @@ This project was a solo endeavor. I was singly responsible for all research, syn
 
 I first ran a competitive analysis. This analysis compared the existence of 40 different features on seven different bike store websites spanning all of Chicago. There were a few key takeaways from this, the biggest and broadest being that there are a lot of retailers that have online storefronts. Even local retailers. Secondly, while there is plenty of variety in the features of online bike storefronts, there is a basic, refined formula that goes into a lot of the sites. Following pieces of this formula helped me establish the basic outline of my page.
 
-<button onclick="window.location.href = 'https://docs.google.com/spreadsheets/d/1OGtpn_DrLi8hDpXRdkHasxzlj41bai2sozcOSGDWw9E/edit?usp=sharing';" class="button button--large--centered">View Competetive Analysis</button>
+<button onclick="window.open('https://docs.google.com/spreadsheets/d/1OGtpn_DrLi8hDpXRdkHasxzlj41bai2sozcOSGDWw9E/edit?usp=sharing', '_blank');" class="button button--large--centered">View Competetive Analysis</button>
 <br><br>
 
 I then reached out and e-mailed the owner of Boulevard Bikes to see if he had any interest in taking part of my research in exchange for free design. He boldly stated that he had no interest in developing an online store front and believed in the importance of brick and mortar business. I then managed to get two guerilla user interviews outside the storefront before getting kicked out. After that, I found two people I knew who both had shopped at Boulevard Bikes in the past as well as two people who had bought bikes online. I managed to get extensive interviews with all of them.
@@ -112,7 +112,7 @@ These are personas generated as a culmination of all of my research and synthesi
 
 ---
 
-## User Flow and Update Site Map
+## User Flow and Updated Site Map
 
 Next came an update to the site map. I included a bike comparison page which convoluted the depth of the site map as it looped around from bike details to bike comparison and back again. I also added a feature to shop for accessories as well as a cart/checkout function as the key points I would tackle in my prototype.
 From here, I created a user flow. The user flow was fairly simple. It introduced the ability to chat with the bike store staff via a small popup window in the corner of the screen as well as a way to view the biography of the last person to service your bike conveniently placed in the product detail page.
@@ -175,4 +175,4 @@ These are screenshots of branding documents that would be passed on to engineeri
 
 <br>
 
-<button onclick="window.location.href = '/retrospectives/boulevard_bikes_retrospective.pdf';" class="button button--large--centered">View Full Retrospective</button>
+<button onclick="window.open('/retrospectives/boulevard_bikes_retrospective.pdf', '_blank');" class="button button--large--centered">View Full Retrospective</button>
