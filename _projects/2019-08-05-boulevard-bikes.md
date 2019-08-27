@@ -126,10 +126,10 @@ From here, I created a user flow. The user flow was fairly simple. It introduced
 This is part of the paper prototype I used in the first iteration of this project. Test users were asked to navigate the site with a pencil as a cursor and the screens were navigated by hand.
 
 <div class="gallery" data-columns="2" style="max-width:600px;">
-	<img src="/images/boulevard-bikes/sketches/sketch_1.JPG">
-	<img src="/images/boulevard-bikes/sketches/sketch_2.JPG">
-	<img src="/images/boulevard-bikes/sketches/sketch_4.JPG">
-	<img src="/images/boulevard-bikes/sketches/sketch_3.JPG">	
+	<img src="/images/boulevard-bikes/paper_prototype/sketch_1.png">
+	<img src="/images/boulevard-bikes/paper_prototype/sketch_2.png">
+	<img src="/images/boulevard-bikes/paper_prototype/sketch_3.png">
+	<img src="/images/boulevard-bikes/paper_prototype/sketch_4.png">	
 </div>
 
 ---
@@ -173,6 +173,6 @@ These are screenshots of branding documents that would be passed on to engineeri
 * Implement a sizing and geometry guide into the bike details page.
 * Make the chat window easier to find.
 
-<br><br>
+<br>
 
 <button onclick="window.location.href = '/retrospectives/boulevard_bikes_retrospective.pdf';" class="button button--large--centered">View Full Retrospective</button>
