@@ -6,11 +6,10 @@ description: This is an app designed to attract Millenial audiences to Chicago S
 featured_image: '/images/cso-summer/banner.jpg'
 ---
 
-<div class="gallery" data-columns="1" style="max-width: 900px;">
-	<img src="/images/boulevard-bikes/high_fidelity/laptop_screen_1.png">
-	<img src="/images/boulevard-bikes/high_fidelity/laptop_screen_2.png">
-	<img src="/images/boulevard-bikes/high_fidelity/laptop_screen_3.png">
-	<img src="/images/boulevard-bikes/high_fidelity/laptop_screen_4.png">	
+<div class="gallery" data-columns="1" style="max-width: 500px;">
+	<img src="/images/cso-summer/mockups/mockup_1.png">
+	<img src="/images/cso-summer/mockups/mockup_2.png">
+	<img src="/images/cso-summer/mockups/mockup_3.png">
 </div>
 
 <button onclick="window.location.href = 'https://invis.io/CVTHT1MSQBZ';" class="button button--large--centered">View Clickable Prototype</button>
@@ -24,8 +23,7 @@ featured_image: '/images/cso-summer/banner.jpg'
 
 ## The Challenge
 
-The Chicago Symphony Orchestra recognizes that the majority of people who attend performances are from older generations. While these performances are currently well attended, CSO is concerned about ensuring that it
-continues to maintain relevancy in the community in years to come. Create an solution to help draw Millenial audiences to CSO events.
+The Chicago Symphony Orchestra recognizes that the majority of people who attend performances are from older generations. While these performances are currently well attended, CSO is concerned about ensuring that it continues to maintain relevancy in the community in years to come. In a group of three over the course of two weeks, create an solution to help draw Millenial audiences to CSO events.
 
 ---
 ## Design Practices Utilized
@@ -64,15 +62,13 @@ This was a group project with three members. For this site, I was partnered with
 
 ---
 
-## User Research
+## Competetive Analysis
 
 We first ran a direct competitive analysis against the apps and websites of several competing theaters and event venues as well as an analysis against other places and services that may indirectly compete with the CSO for the user's time. This yielded some interesting results. Firstly, several competing venues have their own apps available, many of which contain ticketing systems and informative content about the show. Next, we found that social media presence was a feature of every venue. This appeared as though it may have been a necessesity for remaining relevant among Millenial audiences. Thirdly, the CSO has a good deal of competition when it comes to vying for Millenial's time. Social media and streaming services offer some things that are not available to live audiences.
 
 <button onclick="window.open('https://docs.google.com/spreadsheets/d/1zpeL5i0sP1-bWKNXeddD0TCufhOzwC2k-ju7pidPNFQ/edit?usp=sharing', '_blank');" class="button button--large--centered">View Direct Competetive Analysis</button>
 <button onclick="window.open('https://docs.google.com/spreadsheets/d/1SE9svo3PzCZhwQ1eesQu7hEAUrguY9K1IG1Vp8P4X6A/edit?usp=sharing', '_blank');" class="button button--large--centered">View Indirect Competetive Analysis</button>
 <br><br>
-
----
 
 ## Screener Survey
 
@@ -106,13 +102,13 @@ From all of this data, we came up with our problem and solution statements.
 
 ---
 
-## The Problem
+## Problem Statement
 
 As a Millennial, I need the experience of symphony events in the summer to be fun, relevant, and affordable, because I want to be able to convince my friends to come with me, and to have a memorable experience together. 
 
 ---
 
-## The Solution
+## Solution Statement
 
 We created an app to engage Millennials, many of whom are in “constant fear of missing out” by providing ways to share relevant content and event info through social media to get friends excited about attending the CSO together. The app is focused on CSO summer events so that they can be engaged on their phones before, as well as during these events.
 
@@ -139,7 +135,7 @@ From the collected research and synthesis, we generated our primary persona, Kat
 
 ## User Flow
 
-It was time to put our prior research and synthesis into a user flow for our new app.
+It was time to put our prior research and synthesis into a user flow for our new app. The user flow was subject to several changes over the course of our app design cycle. This is our final iteration of it.
 
 ![](/images/cso-summer/synthesis/user_flow.jpg)
 
@@ -155,16 +151,14 @@ My colleague, Margaret Aiken, then created a journey map for our pending applica
 
 ## Wireframe
 
+From our sketches, we created digital wireframes which were designed to be built into a digital prototype.
+
 <div class="gallery" data-columns="4">
 	<img src="/images/cso-summer/execution/wireframe_1.png">
 	<img src="/images/cso-summer/execution/wireframe_2.png">
 	<img src="/images/cso-summer/execution/wireframe_3.png">
 	<img src="/images/cso-summer/execution/wireframe_4.png">	
 </div>
-
----
-
-## Digital Prototype
 
 ---
 
@@ -176,12 +170,11 @@ This image illustrates the evolution of our homepage through four versions rangi
 
 ---
 
-## High-Fidelity Prototype
+## Medium-Fidelity Prototype
 
-This video showcases a completed, high-fidelity iteration of a digital prototype.
+This video showcases a completed, medium-fidelity iteration of a digital prototype.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZG6rQP0lRm0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4N0q0rmwA2c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ---
 
 ## Project Takeaways
@@ -191,7 +184,6 @@ This video showcases a completed, high-fidelity iteration of a digital prototype
 
 ---
 
-## Next Steps
+## How We Could Improve Our Project
 
-* Create a high-fidelity prototype.
-* Come up with a more innovative solution for this project based on our research. There is a lot here that can be re-worked.
+While the execution and research of this process are thorough, I believe that the solution itself could be made more innovative. I would like to see a solution that addresses the pain points of both of our users without containing much of the functionality of other more popular applications. As helpful as I feel a ticketing application would be, I see the games side as a more creative solution to the problem at hand and would like to use that as a springboard to developing the app in a different direction.
