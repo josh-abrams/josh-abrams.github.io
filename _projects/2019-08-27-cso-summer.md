@@ -1,8 +1,8 @@
 ---
 title: 'CSO Summer'
-subtitle: 'An app for attracting Millenial audiences to the Chicago Symphony Orchestra'
+subtitle: 'Bringing Millennials to the CSO'
 date: 2019-08-27 00:00:00
-description: This is an app designed to attract Millenial audiences to Chicago Symphony Orchestra events.
+description: This is an app designed to attract Millennial audiences to Chicago Symphony Orchestra events.
 featured_image: '/images/cso-summer/banner.jpg'
 ---
 
@@ -23,7 +23,7 @@ featured_image: '/images/cso-summer/banner.jpg'
 
 ## The Challenge
 
-The Chicago Symphony Orchestra recognizes that the majority of people who attend performances are from older generations. While these performances are currently well attended, CSO is concerned about ensuring that it continues to maintain relevancy in the community in years to come. In a group of three over the course of two weeks, create an solution to help draw Millenial audiences to CSO events.
+The Chicago Symphony Orchestra recognizes that the majority of people who attend performances are from older generations. While these performances are currently well attended, CSO is concerned about ensuring that it continues to maintain relevancy in the community in years to come. In a group of three over the course of two weeks, create an solution to help draw Millennial audiences to CSO events.
 
 ---
 ## Design Practices Utilized
@@ -58,16 +58,24 @@ The Chicago Symphony Orchestra recognizes that the majority of people who attend
 
 ## My Role
 
-This was a group project with three members. For this site, I was partnered with Wendy Klarman and Margaret Aiken, two fellow UX designers. I was involved in nearly every step of the process, save for the heuristic evaluation and the journey map.
+This was a group project with three members. For this site, I was partnered with two fellow UX designers. I was involved in nearly every step of the process, save for the heuristic evaluation and the journey map.
 
 ---
 
-## Competetive Analysis
+## My Teammates
 
-We first ran a direct competitive analysis against the apps and websites of several competing theaters and event venues as well as an analysis against other places and services that may indirectly compete with the CSO for the user's time. This yielded some interesting results. Firstly, several competing venues have their own apps available, many of which contain ticketing systems and informative content about the show. Next, we found that social media presence was a feature of every venue. This appeared as though it may have been a necessesity for remaining relevant among Millenial audiences. Thirdly, the CSO has a good deal of competition when it comes to vying for Millenial's time. Social media and streaming services offer some things that are not available to live audiences.
+[Wendy Klarman](http://www.wendyklarman.com)
 
-<button onclick="window.open('https://docs.google.com/spreadsheets/d/1zpeL5i0sP1-bWKNXeddD0TCufhOzwC2k-ju7pidPNFQ/edit?usp=sharing', '_blank');" class="button button--large--centered">View Direct Competetive Analysis</button>
-<button onclick="window.open('https://docs.google.com/spreadsheets/d/1SE9svo3PzCZhwQ1eesQu7hEAUrguY9K1IG1Vp8P4X6A/edit?usp=sharing', '_blank');" class="button button--large--centered">View Indirect Competetive Analysis</button>
+[Margaret Aiken](#)
+
+---
+
+## Competitive Analysis
+
+We first ran a direct competitive analysis against the apps and websites of several competing theaters and event venues as well as an analysis against other places and services that may indirectly compete with the CSO for the user's time. This yielded some interesting results. Firstly, several competing venues have their own apps available, many of which contain ticketing systems and informative content about the show. Next, we found that social media presence was a feature of every venue. This appeared as though it may have been a necessisity for remaining relevant among Millennial audiences. Thirdly, the CSO has a good deal of competition when it comes to vying for Millennial's time. Social media and streaming services offer some things that are not available to live audiences.
+
+<button onclick="window.open('https://docs.google.com/spreadsheets/d/1zpeL5i0sP1-bWKNXeddD0TCufhOzwC2k-ju7pidPNFQ/edit?usp=sharing', '_blank');" class="button button--large--centered">View Direct Competitive Analysis</button>
+<button onclick="window.open('https://docs.google.com/spreadsheets/d/1SE9svo3PzCZhwQ1eesQu7hEAUrguY9K1IG1Vp8P4X6A/edit?usp=sharing', '_blank');" class="button button--large--centered">View Indirect Competitive Analysis</button>
 <br><br>
 
 ## Screener Survey
@@ -88,15 +96,15 @@ After contacting the users for an initial round of interviews, we were left with
 * Going to an event with other people is a key reason that people will attend the Symphony.
 * Cost is a key factor when considering going to an event.
 * People prefer live music over recordings because they enjoy the experience of attending a live event.
-* Millenials associate the CSO with a racially homogenous older audience, which drives them away from attending.
+* Millennials associate the CSO with a racially homogenous older audience, which drives them away from attending.
 * Some, often less musically experienced attendees find Symphony events boring.
-* Millenials most often choose to listen to music via streaming services such as Spotify and YouTube.
+* Millennials most often choose to listen to music via streaming services such as Spotify and YouTube.
 
 ---
 
 ## Contextual Inquiry
 
-Lastly, for this section of our user research, we performed a contextual inquiry of the existing CSO site. Our test users were unable to locate a specific event called Sound Post that was geared towards Millenials using the current CSO website. One user said that she would need to reach out via the online concierge service if she wanted to buy a ticket to the event, but she wouldn't have known it existed if we had not instructed her to find it.
+Lastly, for this section of our user research, we performed a contextual inquiry of the existing CSO site. Our test users were unable to locate a specific event called Sound Post that was geared towards Millennials using the current CSO website. One user said that she would need to reach out via the online concierge service if she wanted to buy a ticket to the event, but she wouldn't have known it existed if we had not instructed her to find it.
 
 From all of this data, we came up with our problem and solution statements.
 
@@ -124,7 +132,7 @@ With these statements in mind, we then synthesized our research into an affinity
 
 ## User Personas
 
-From the collected research and synthesis, we generated our primary persona, Katie Burns, who is a Millenial music enthusiast who goes to the CSO a few times per year. Our secondary persona, Tom, has never been to the CSO and is not really interested in going unless someone invites him.
+From the collected research and synthesis, we generated our primary persona, Katie Burns, who is a Millennial music enthusiast who goes to the CSO a few times per year. Our secondary persona, Tom, has never been to the CSO and is not really interested in going unless someone invites him.
 
 <div class="gallery" data-columns="2">
 	<img src="/images/cso-summer/synthesis/user_persona_1.jpg">
