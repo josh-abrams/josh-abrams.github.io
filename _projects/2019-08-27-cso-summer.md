@@ -64,9 +64,10 @@ This was a group project with three members. For this site, I was partnered with
 
 ## My Teammates
 
-[Wendy Klarman](http://www.wendyklarman.com)
+<a href="http://www.wendyklarman.com" target="_blank">Wendy Klarman</a>
 
-[Margaret Aiken](#)
+
+<a href="http://www.wendyklarman.com" target="_blank">Margaret Aiken</a>
 
 ---
 
