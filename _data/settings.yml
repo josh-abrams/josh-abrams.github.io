@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: Joshua Abrams
+  site_title: Josh Abrams
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -18,7 +18,7 @@ menu_settings:
       url: '/contact'
 
 footer_settings:
-  footer_tagline: UX designer and front-end developer.
+  footer_tagline: Professional UX Designer
 
 hero_settings:
   overlay_opacity: 0.75

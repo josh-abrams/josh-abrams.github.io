@@ -15,7 +15,7 @@ featured_image: '/images/boulevard-bikes/banner.jpg'
 
 <button onclick="window.open('https://invis.io/ADTLQQ73Q8W', '_blank');" class="button button--large--centered">View Clickable Prototype</button>
 <br>
-<center><p>(Please note: This prototype is formatted for an HD desktop experience)</p></center>
+<center><p>(Please note: This prototype is formatted for a desktop experience)</p></center>
 <br>
 
 # Boulevard Bikes

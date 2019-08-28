@@ -3,7 +3,7 @@ title: 'CSO Summer'
 subtitle: 'Bringing Millennials to the CSO'
 date: 2019-08-27 00:00:00
 description: This is an app designed to attract Millennial audiences to Chicago Symphony Orchestra events.
-featured_image: '/images/cso-summer/banner.jpg'
+featured_image: '/images/cso-summer/banner.jpeg'
 ---
 
 <div class="gallery" data-columns="1" style="max-width: 500px;">
@@ -28,16 +28,16 @@ The Chicago Symphony Orchestra recognizes that the majority of people who attend
 ---
 ## Design Practices Utilized
 
-**Research**
+### Research
 * Direct Competitive Analysis
 * Indirect Competitive Analysis
-* Heuristic Evaluation of current site
+* Heuristic Evaluation of Current Site
 * Screener Survey
 * User Interviews
 * Client Analysis
 * Contextual Inquiry of CSO website
 
-**Synthesis**
+### Synthesis
 * Affinity Mapping
 * Personas
 * Task Analysis
@@ -46,12 +46,12 @@ The Chicago Symphony Orchestra recognizes that the majority of people who attend
 * Site Mapping
 * User Flow
 
-**Execution:**
+### Execution
 * Sketching in Paper
 * Design Studio
 * Usability Testing
 * Iterative Design
-* Create Digital Wireframe 
+* Digital Wireframing 
 * Digital Prototyping
 
 ---
@@ -81,6 +81,13 @@ We first ran a direct competitive analysis against the apps and websites of seve
 <button onclick="window.open('https://docs.google.com/spreadsheets/d/1SE9svo3PzCZhwQ1eesQu7hEAUrguY9K1IG1Vp8P4X6A/edit?usp=sharing', '_blank');" class="button button--large--centered">View Indirect Competitive Analysis</button>
 <br><br>
 
+### Heuristic Analysis
+
+My colleague, Margaret Aiken, ran a detailed heuristic analysis on the existing CSO website. It catalogs the usability and design of the current website.
+
+<button onclick="window.open('https://docs.google.com/spreadsheets/d/1F0E9wPshret0GlMWj64sj0akoW3yz6hM1ENqAkhQPiY/edit?usp=sharing', '_blank');" class="button button--large--centered">View Heuristic Analysis</button>
+<br><br>
+
 ### Screener Survey
 
 After a teammate performed a heuristic analysis, we sent out a screener survey as a means of gathering basic data about our users and finding a means to contact them for user interviews.
@@ -100,6 +107,10 @@ After contacting the users for an initial round of interviews, we were left with
 * Millennials associate the CSO with a racially homogenous older audience, which drives them away from attending.
 * Some, often less musically experienced attendees find Symphony events boring.
 * Millennials most often choose to listen to music via streaming services such as Spotify and YouTube.
+
+### Site Mapping
+
+Mapping the existing site was a challenge because the existing site had a very busy front page. Below is a clipping from the existing site map. Fitting the entire site map onto the page would cause readability issues with on this site, so I've left it out of this case study.
 
 ### Contextual Inquiry
 
@@ -140,6 +151,12 @@ It was time to put our prior research and synthesis into a user flow for our new
 
 ![](/images/cso-summer/synthesis/user_flow.jpg)
 
+### Site Mapping
+
+With our user flow set, we were able to create a revised site map. This map contained a considerably more shallow and minimal workflow than the existing CSO site.
+
+![](/images/cso-summer/synthesis/revised_site_map.png)
+
 ### Journey Mapping
 
 My colleague, Margaret Aiken, then created a journey map for our pending application. It details our primary user's emotional flow as she goes through the process of buying a ticket and attending a CSO event.
@@ -150,21 +167,33 @@ My colleague, Margaret Aiken, then created a journey map for our pending applica
 
 ## Execution
 
+### Sketching
+
+During the first phase of execution, we drew up some sketches of basic ideas we were throwing around for our prototype.
+
+<div class="gallery" data-columns="3">
+	<img src="/images/cso-summer/execution/sketch_1.png">
+	<img src="/images/cso-summer/execution/sketch_2.png">
+	<img src="/images/cso-summer/execution/sketch_3.png">
+</div>
+
+
 ### Wireframe
 
 From our sketches, we created digital wireframes which were designed to be built into a digital prototype.
 
-<div class="gallery" data-columns="4">
+<div class="gallery" data-columns="3">
 	<img src="/images/cso-summer/execution/wireframe_1.png">
 	<img src="/images/cso-summer/execution/wireframe_2.png">
 	<img src="/images/cso-summer/execution/wireframe_3.png">
-	<img src="/images/cso-summer/execution/wireframe_4.png">	
 </div>
 
 
-### Evolution of our homepage
+### Usability Testing
 
-This image illustrates the evolution of our homepage through four versions ranging from sketch to wireframe. Areas that changed over iterations are circled.
+From our usability testing we found several key insights about our layout. Speaking strictly on the homepage alone, we started with an idea for a simple four button layout with a hero image during our initial wireframe and then ended up scrapping it for immediate access to our event list. All of the navigation on the homepage was deferred to the bottom nav-bar where it could be easily accessed anywhere in the app. 
+
+This image illustrates the evolution of our homepage through four versions ranging from our first rough sketch all of the way to the wireframe in our final prototype. Areas that changed over iterations are circled.
 
 ![](/images/cso-summer/execution/homepage_evolution.png)
 
@@ -175,6 +204,7 @@ This image illustrates the evolution of our homepage through four versions rangi
 This video showcases a completed, medium-fidelity iteration of a digital prototype.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4N0q0rmwA2c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ---
 
 ## Project Takeaways
