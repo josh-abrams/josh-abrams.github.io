@@ -183,9 +183,9 @@ During the first phase of execution, we drew up some sketches of basic ideas we 
 From our sketches, we created digital wireframes which were designed to be built into a digital prototype.
 
 <div class="gallery" data-columns="3">
-	<img src="/images/cso-summer/execution/wireframe_1.png">
-	<img src="/images/cso-summer/execution/wireframe_2.png">
-	<img src="/images/cso-summer/execution/wireframe_3.png">
+	<img src="/images/cso-summer/execution/wireframe_1.jpg">
+	<img src="/images/cso-summer/execution/wireframe_2.jpg">
+	<img src="/images/cso-summer/execution/wireframe_3.jpg">
 </div>
 
 
