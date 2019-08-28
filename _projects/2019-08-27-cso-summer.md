@@ -71,7 +71,9 @@ This was a group project with three members. For this site, I was partnered with
 
 ---
 
-## Competitive Analysis
+## User Research
+
+### Competitive Analysis
 
 We first ran a direct competitive analysis against the apps and websites of several competing theaters and event venues as well as an analysis against other places and services that may indirectly compete with the CSO for the user's time. This yielded some interesting results. Firstly, several competing venues have their own apps available, many of which contain ticketing systems and informative content about the show. Next, we found that social media presence was a feature of every venue. This appeared as though it may have been a necessisity for remaining relevant among Millennial audiences. Thirdly, the CSO has a good deal of competition when it comes to vying for Millennial's time. Social media and streaming services offer some things that are not available to live audiences.
 
@@ -79,7 +81,7 @@ We first ran a direct competitive analysis against the apps and websites of seve
 <button onclick="window.open('https://docs.google.com/spreadsheets/d/1SE9svo3PzCZhwQ1eesQu7hEAUrguY9K1IG1Vp8P4X6A/edit?usp=sharing', '_blank');" class="button button--large--centered">View Indirect Competitive Analysis</button>
 <br><br>
 
-## Screener Survey
+### Screener Survey
 
 After a teammate performed a heuristic analysis, we sent out a screener survey as a means of gathering basic data about our users and finding a means to contact them for user interviews.
 
@@ -89,9 +91,7 @@ After a teammate performed a heuristic analysis, we sent out a screener survey a
 	<img src="/images/cso-summer/research/survey_takeaway_3.png">
 </div>
 
----
-
-## User Interviews
+### User Interviews
 
 After contacting the users for an initial round of interviews, we were left with some key takeaways:
 * Going to an event with other people is a key reason that people will attend the Symphony.
@@ -101,9 +101,7 @@ After contacting the users for an initial round of interviews, we were left with
 * Some, often less musically experienced attendees find Symphony events boring.
 * Millennials most often choose to listen to music via streaming services such as Spotify and YouTube.
 
----
-
-## Contextual Inquiry
+### Contextual Inquiry
 
 Lastly, for this section of our user research, we performed a contextual inquiry of the existing CSO site. Our test users were unable to locate a specific event called Sound Post that was geared towards Millennials using the current CSO website. One user said that she would need to reach out via the online concierge service if she wanted to buy a ticket to the event, but she wouldn't have known it existed if we had not instructed her to find it.
 
@@ -111,27 +109,23 @@ From all of this data, we came up with our problem and solution statements.
 
 ---
 
-## Problem Statement
+## Synthesis
+
+### Problem Statement
 
 As a Millennial, I need the experience of symphony events in the summer to be fun, relevant, and affordable, because I want to be able to convince my friends to come with me, and to have a memorable experience together. 
 
----
-
-## Solution Statement
+### Solution Statement
 
 We created an app to engage Millennials, many of whom are in “constant fear of missing out” by providing ways to share relevant content and event info through social media to get friends excited about attending the CSO together. The app is focused on CSO summer events so that they can be engaged on their phones before, as well as during these events.
 
----
-
-## Affinity Map
+### Affinity Map
 
 With these statements in mind, we then synthesized our research into an affinity map to better understand our user's relationship with music and entertainment.
 
 ![](/images/cso-summer/synthesis/affinity_map.jpg)
 
----
-
-## User Personas
+### User Personas
 
 From the collected research and synthesis, we generated our primary persona, Katie Burns, who is a Millennial music enthusiast who goes to the CSO a few times per year. Our secondary persona, Tom, has never been to the CSO and is not really interested in going unless someone invites him.
 
@@ -140,17 +134,13 @@ From the collected research and synthesis, we generated our primary persona, Kat
 	<img src="/images/cso-summer/synthesis/user_persona_2.jpg">
 </div>
 
----
-
-## User Flow
+### User Flow
 
 It was time to put our prior research and synthesis into a user flow for our new app. The user flow was subject to several changes over the course of our app design cycle. This is our final iteration of it.
 
 ![](/images/cso-summer/synthesis/user_flow.jpg)
 
----
-
-## Journey Mapping
+### Journey Mapping
 
 My colleague, Margaret Aiken, then created a journey map for our pending application. It details our primary user's emotional flow as she goes through the process of buying a ticket and attending a CSO event.
 
@@ -158,7 +148,9 @@ My colleague, Margaret Aiken, then created a journey map for our pending applica
 
 ---
 
-## Wireframe
+## Execution
+
+### Wireframe
 
 From our sketches, we created digital wireframes which were designed to be built into a digital prototype.
 
@@ -169,9 +161,8 @@ From our sketches, we created digital wireframes which were designed to be built
 	<img src="/images/cso-summer/execution/wireframe_4.png">	
 </div>
 
----
 
-## Evolution of our homepage
+### Evolution of our homepage
 
 This image illustrates the evolution of our homepage through four versions ranging from sketch to wireframe. Areas that changed over iterations are circled.
 
