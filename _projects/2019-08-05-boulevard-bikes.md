@@ -29,17 +29,17 @@ Create an e-commerce platform for a local Chicago business over the course of tw
 ---
 ## Design Practices Utilized
 
-**Research:**
+### Research
 * Competitive Analysis
 * User Interviews
 
-**Synthesis:**
+### Synthesis
 * Problem and Solution Statements
 * Information Architecture Analysis
 * Affinity Mapping
 * User Personas
 
-**Execution:**
+### Execution
 * Usability Testing
 * Iterative Design
 * Sketching
@@ -75,33 +75,27 @@ From this information, I was able to formulate my problem and solution statement
 
 ---
 
-## The Problem
+## Synthesis
+
+### Problem Statement
 
 As a city biker who is in the market for a new bike but unsure where to shop, I need a way to shop between an online and in-store experience because I will benefit from detailed specifications, access to staff, and a wide selection of bikes.
 
----
-
-## The Solution
+### Solution Statement
 
 Create an e-commerce website that allows its users to search for, compare, and buy bikes as well as schedule times to come in and test bikes. It would also allow users to chat with staff directly to receive expert advice on their purchases.
 
----
-
-## Affinity Map
+### Affinity Map
 
 Using this statement and my user research as a guide, I created an affinity map to diagram my progress. It is from this research that I was able to go back and refine the questions from my user interviews for potential future use. 
 
 ![](/images/boulevard-bikes/synthesis/affinity_map.JPG)
 
----
-
-## Information Architecture
+### Information Architecture
 
 I performed an Information Architecture analysis on the existing Boulevard Bikes website by documenting its existing site map. The site map turned out relatively flat, highlighting the original site’s mostly static architecture. Additionally, I found that since Boulevard Bikes preferred a brick and mortar approach to business, I would have to tailor the online experience to integrate with the in-store experience.
 
----
-
-## User Personas
+### User Personas
 
 These are personas generated as a culmination of all of my research and synthesis. The primary user persona, Sarah, represented an everyday biking enthusiast while the secondary persona, Tom, embodied a career bike messenger.
 
@@ -110,9 +104,7 @@ These are personas generated as a culmination of all of my research and synthesi
 	<img src="/images/boulevard-bikes/personas/persona-tom.png">
 </div>
 
----
-
-## User Flow and Updated Site Map
+### User Flow and Updated Site Map
 
 Next came an update to the site map. I included a bike comparison page which convoluted the depth of the site map as it looped around from bike details to bike comparison and back again. I also added a feature to shop for accessories as well as a cart/checkout function as the key points I would tackle in my prototype.
 From here, I created a user flow. The user flow was fairly simple. It introduced the ability to chat with the bike store staff via a small popup window in the corner of the screen as well as a way to view the biography of the last person to service your bike conveniently placed in the product detail page.
@@ -121,7 +113,9 @@ From here, I created a user flow. The user flow was fairly simple. It introduced
 
 ---
 
-## Paper Prototype
+## Execution
+
+### Paper Prototype
 
 This is part of the paper prototype I used in the first iteration of this project. Test users were asked to navigate the site with a pencil as a cursor and the screens were navigated by hand.
 
@@ -132,9 +126,7 @@ This is part of the paper prototype I used in the first iteration of this projec
 	<img src="/images/boulevard-bikes/paper_prototype/sketch_4.png">	
 </div>
 
----
-
-## Usability Testing and Wireframe
+### Usability Testing and Wireframe
 
 After adapting these sketches into a simple paper prototype, I was ready to begin usability testing. I found three willing participants who gave me feedback on the basic outline as well as the usability of the site’s unique features. From these critiques, I was able to move forward into a digital wireframe.
 

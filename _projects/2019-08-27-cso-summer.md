@@ -191,7 +191,7 @@ From our sketches, we created digital wireframes which were designed to be built
 
 ### Usability Testing
 
-From our usability testing we found several key insights about our layout. Speaking strictly on the homepage alone, we started with an idea for a simple four button layout with a hero image during our initial wireframe and then ended up scrapping it for immediate access to our event list. All of the navigation on the homepage was deferred to the bottom nav-bar where it could be easily accessed anywhere in the app. 
+From our usability testing we found several key insights about our layout. Speaking strictly on the homepage alone, we started with an idea for a simple four button layout with a hero image during our initial wireframe and then ended up scrapping it for immediate access to our event list. All of the navigation on the homepage was deferred to the bottom nav-bar where it could be easily accessed anywhere in the app. We also ended up removing the notification feature as many of our users felt that it was unnecessary.
 
 This image illustrates the evolution of our homepage through four versions ranging from our first rough sketch all of the way to the wireframe in our final prototype. Areas that changed over iterations are circled.
 
