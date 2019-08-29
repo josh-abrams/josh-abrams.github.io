@@ -5,4 +5,9 @@ description: Personal is the perfect theme for developers, designers and other c
 featured_image: /images/about_banner.jpeg
 ---
 
-I feel fortunate to have found the beautiful cross-section between tech and design. Since my childhood days on Geocities, I've been designing and coding websites for the world to see. I'm so glad that I have the opportunity to sink my teeth into another layer the app development sandwich. I am proud to be creating solutions in my field and intend to do so for many years to come.
+<img src="/images/about_pic.jpg" style="max-width: 500px;"/>
+
+I feel fortunate to have found the beautiful cross-section between tech and design. Since my childhood days on Geocities, I've been designing and coding websites for the world to see. I am proud to be designing solutions in my field and intend to do so for many years to come.
+
+<!-- <button onclick="window.location.href = '#';" class="button button--large--centered">My Resume</button>
+<br> -->

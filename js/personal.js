@@ -254,7 +254,7 @@
 						pullDrag: false,
 						dots: true,
 						autoplay: false,
-						autoplayTimeout: 6000,
+						autoplayTimeout: 1000,
 						autoHeight: true,
 						animateOut: 'fadeOut'
 					});
@@ -266,7 +266,7 @@
 
 							if ( direction === 'down') {
 
-								// console.log('pause');
+								console.log('pause');
 							
 								// Pause this carousel
 								$this.children('.gallery__wrap').trigger('stop.owl.autoplay');

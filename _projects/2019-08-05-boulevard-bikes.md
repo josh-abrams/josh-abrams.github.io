@@ -91,9 +91,11 @@ Using this statement and my user research as a guide, I created an affinity map 
 
 ![](/images/boulevard-bikes/synthesis/affinity_map.JPG)
 
-### Information Architecture
+### Site Mapping
 
-I performed an Information Architecture analysis on the existing Boulevard Bikes website by documenting its existing site map. The site map turned out relatively flat, highlighting the original site’s mostly static architecture. Additionally, I found that since Boulevard Bikes preferred a brick and mortar approach to business, I would have to tailor the online experience to integrate with the in-store experience.
+I performed an Information Architecture analysis on the existing Boulevard Bikes website by documenting its existing site map. The site map turned out flat, highlighting the original site’s static architecture.
+
+![](/images/boulevard-bikes/synthesis/old_site_map.png)
 
 ### User Personas
 
