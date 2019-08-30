@@ -77,6 +77,7 @@ This was a group project with three members. For this site, I was partnered with
 
 We first ran a direct competitive analysis against the apps and websites of several competing theaters and event venues as well as an analysis against other places and services that may indirectly compete with the CSO for the user's time. This yielded some interesting results. Firstly, several competing venues have their own apps available, many of which contain ticketing systems and informative content about the show. Next, we found that social media presence was a feature of every venue. This appeared as though it may have been a necessisity for remaining relevant among Millennial audiences. Thirdly, the CSO has a good deal of competition when it comes to vying for Millennial's time. Social media and streaming services offer some things that are not available to live audiences.
 
+<br>
 <button onclick="window.open('https://docs.google.com/spreadsheets/d/1zpeL5i0sP1-bWKNXeddD0TCufhOzwC2k-ju7pidPNFQ/edit?usp=sharing', '_blank');" class="button button--large--centered">View Direct Competitive Analysis</button>
 <button onclick="window.open('https://docs.google.com/spreadsheets/d/1SE9svo3PzCZhwQ1eesQu7hEAUrguY9K1IG1Vp8P4X6A/edit?usp=sharing', '_blank');" class="button button--large--centered">View Indirect Competitive Analysis</button>
 <br><br>
@@ -85,6 +86,7 @@ We first ran a direct competitive analysis against the apps and websites of seve
 
 My colleague, Margaret Aiken, ran a detailed heuristic analysis on the existing CSO website. It catalogs the usability and design of the current website.
 
+<br>
 <button onclick="window.open('https://docs.google.com/spreadsheets/d/1F0E9wPshret0GlMWj64sj0akoW3yz6hM1ENqAkhQPiY/edit?usp=sharing', '_blank');" class="button button--large--centered">View Heuristic Analysis</button>
 <br><br>
 

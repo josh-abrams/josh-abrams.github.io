@@ -56,10 +56,15 @@ This project was a solo endeavor. I was singly responsible for all research, syn
 
 ## User Research
 
+### Competitive Analysis
+
 I first ran a competitive analysis. This analysis compared the existence of 40 different features on seven different bike store websites spanning all of Chicago. There were a few key takeaways from this, the biggest and broadest being that there are a lot of retailers that have online storefronts. Even local retailers. Secondly, while there is plenty of variety in the features of online bike storefronts, there is a basic, refined formula that goes into a lot of the sites. Following pieces of this formula helped me establish the basic outline of my page.
 
 <button onclick="window.open('https://docs.google.com/spreadsheets/d/1OGtpn_DrLi8hDpXRdkHasxzlj41bai2sozcOSGDWw9E/edit?usp=sharing', '_blank');" class="button button--large--centered">View Competetive Analysis</button>
 <br><br>
+
+
+### User Interviews
 
 I then reached out and e-mailed the owner of Boulevard Bikes to see if he had any interest in taking part of my research in exchange for free design. He boldly stated that he had no interest in developing an online store front and believed in the importance of brick and mortar business. I then managed to get two guerilla user interviews outside the storefront before getting kicked out. After that, I found two people I knew who both had shopped at Boulevard Bikes in the past as well as two people who had bought bikes online. I managed to get extensive interviews with all of them.
 
