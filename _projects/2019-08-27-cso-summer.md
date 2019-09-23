@@ -47,7 +47,7 @@ The Chicago Symphony Orchestra recognizes that the majority of people who attend
 * User Flow
 
 ### Execution
-* Sketching in Paper
+* Sketching on Paper
 * Design Studio
 * Usability Testing
 * Iterative Design
