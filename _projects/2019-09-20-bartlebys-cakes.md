@@ -172,8 +172,26 @@ The next step was to sketch out potential layouts for each page. These sketches 
 
 We needed to wireframe the sites after that. The following are a few of the wireframes we generated for our first round of usability testing.
 
-<div class="gallery" data-columns="3" style="max-width: 900px;">
+<div class="gallery" data-columns="3" style="max-width: 900px;">'
 	<img src="/images/bartlebys-cakes/delivery/wireframe1.png">
 	<img src="/images/bartlebys-cakes/delivery/wireframe2.png">
 	<img src="/images/bartlebys-cakes/delivery/wireframe3.png">
 </div>
+
+### Prototypes
+
+After that, we ran several rounds of usability testing on wireframes. Our final prototypes were informed by user responses to our wireframes.
+
+Note: These prototypes are formatted for a desktop experience.
+
+<br>
+<button onclick="window.open('https://invis.io/Q2TY15KTB63', '_blank');" class="button button--large--centered">View the Wix Prototype</button>
+<br><br>
+Walkthrough of the Shopify website:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SyK9rf8BAQU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Next Steps
+
+Our client was thrilled with the Shopify prototype and wanted to adopt it. I turned over the account to her and she has since worked on integrating it into her site. I will be working closely with the client to ensure that this solution gets implemented and goes live.
+
