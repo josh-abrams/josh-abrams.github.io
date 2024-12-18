@@ -178,14 +178,6 @@ We needed to wireframe the sites after that. The following are a few of the wire
 	<img src="/images/bartlebys-cakes/delivery/wireframe3.png">
 </div>
 
-### Prototypes
-
-After that, we ran several rounds of usability testing on wireframes. Our final prototypes were informed by user responses to our wireframes.
-
-Note: These prototypes are formatted for a desktop experience.
-
-<br>
-<button onclick="window.open('https://invis.io/Q2TY15KTB63', '_blank');" class="button button--large--centered">View the Wix Prototype</button>
 <br><br>
 Walkthrough of the Shopify website:
 
