@@ -68,17 +68,6 @@ My role in this project ended up being more extensive than I though it would be.
 
 From our client interviews, we were able to get a grasp on how the business worked internally as well as the pain points that the client believed were getting in the way of her business. Among them, and quite possibly the most important one of them, was that the delivery service would not integrate the client's Wix Restaurants page. While the delivery service, Deliv, had an API that could theoretically connect it with external sites, Wix Restaurants could not support any communication with it. The workaround for this was that the customers ordering online would have to include a note in the special instructions that they would want delivery and the office administrator would call and manually put the delivery into the system. Improving this delivery system turned out to be the crux of our solutions.
 
-### Competitive Analysis
-
-We then ran a competitive analysis which turned out to be informative in that it showed us that the client's current website featured nearly as much capability as its leading corporate competitors.
-
-This turned out to be an interesting insight since our initial impression of the site was that it was lacking in functionality.
-
-<br>
-<button onclick="window.open('https://drive.google.com/open?id=1YCy1b1ggdf720WpR9h5gPfZGjDlL_3pvq_noErKJcAs', '_blank');" class="button button--large--centered">View Direct Competitive Analysis</button>
-<button onclick="window.open('https://drive.google.com/open?id=1I_Ov6LDrQp-HerPCbUoPmIwbNW2fynWXb9LJWrDC48k', '_blank');" class="button button--large--centered">View Indirect Competitive Analysis</button>
-<br><br>
-
 ### Heuristic Evaluation
 
 The heuristic evaluation that we ran afterwards shed light on the fact that the ordering system was a major pain point. While clicking around and exploring the site was fairly intuitive in most ways, it took several more steps to order than it did for anything else.
